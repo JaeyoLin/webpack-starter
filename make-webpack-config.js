@@ -3,7 +3,7 @@ var webpack           = require('webpack'),
   ExtractTextPlugin = require('extract-text-webpack-plugin'),
   HtmlWebpackPlugin = require('html-webpack-plugin'),
   bower_dir         = __dirname + '/app/bower_components',
-  autoprefixer      = require('autoprefixer-core'),
+  autoprefixer      = require('autoprefixer'),
   csswring          = require('csswring');
 
 const HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
