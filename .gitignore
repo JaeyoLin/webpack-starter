@@ -1,0 +1,14 @@
+### OSX ###
+.DS_Store
+.idea
+us.stackdump
+
+### Windows ###
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+npm-debug.log
+
+### Develop ###
+node_modules/
+dist/

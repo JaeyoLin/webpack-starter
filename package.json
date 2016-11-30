@@ -1,0 +1,46 @@
+{
+  "name": "webpack-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "webpack-dev-server --config webpack-dev-server.config.js --hot --devtool eval --progress --colors --content-base app",
+    "dev": "node dev-server",
+    "deploy": "webpack -p --config webpack-deploy.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer-core": "^6.0.1",
+    "babel-core": "^6.18.2",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.8",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "compass-mixins": "^0.12.10",
+    "css-loader": "^0.26.0",
+    "csswring": "^5.1.0",
+    "eslint": "^3.11.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.1",
+    "eslint-plugin-react": "^6.7.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.24.1",
+    "node-sass": "^3.13.0",
+    "opn": "^4.0.2",
+    "postcss": "^5.2.6",
+    "postcss-loader": "^1.1.1",
+    "postcss-nested": "^1.0.0",
+    "react-hot-loader": "^1.3.1",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "util": "^0.10.3",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "webpack": "^1.13.3"
+  }
+}
