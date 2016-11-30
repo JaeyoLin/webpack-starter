@@ -15,9 +15,7 @@ npm run dev
 ``` text
 npm run deploy
 ```
-
-
-
+<br><br><br>
 ## React and Redux 
 If you want to develop React and Redux
 
