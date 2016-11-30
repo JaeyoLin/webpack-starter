@@ -15,3 +15,12 @@ npm run dev
 ``` text
 npm run deploy
 ```
+
+If you want to develop React and Redux
+``` text
+npm install --save immutable react react-dom react-redux redux redux-actions redux-immutable
+```
+
+``` text
+npm install --save-dev redux-logger
+```
