@@ -37,7 +37,7 @@ module.exports = function(options) {
     ];
     loaders.push(
       { test : /\.(woff|ttf|svg|eot|jpg|png|git)$/, loader: 'url-loader' },
-      { test : /\.(js|jsx)$/, loader:'react-hot!babel', include: path.join(__dirname, 'app/src/'), exclude: /node_modules/},
+      { test : /\.(js|jsx)$/, loader:'react-hot!babel', include: path.join(__dirname, 'src/'), exclude: /node_modules/},
       { test : /\.scss$/, loader:'style!css!postcss!sass?includePaths[]=' + path.resolve(__dirname, './node_modules/compass-mixins/lib') },
       { test : /\.css$/, loader:'style!css' }
     );
@@ -47,7 +47,7 @@ module.exports = function(options) {
     entry.bundle = './src/index.js';
     loaders.push(
       { test : /\.(woff|ttf|svg|eot|jpg|png|git)$/, loader: 'url-loader' },
-      { test : /\.(js|jsx)$/, loader:'babel', include: path.join(__dirname, 'app/src/'), exclude: /node_modules/},
+      { test : /\.(js|jsx)$/, loader:'babel', include: path.join(__dirname, 'src/'), exclude: /node_modules/},
       { test : /\.scss$/, loader:ExtractTextPlugin.extract('style','css!postcss!sass?includePaths[]=' + path.resolve(__dirname, './node_modules/compass-mixins/lib')) },
       { test : /\.css$/, loader: ExtractTextPlugin.extract('style', 'css') }
     );
